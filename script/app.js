@@ -1,6 +1,6 @@
 // Tính toán thời gian còn lại từ thời điểm hiện tại đến ngày 25/05/2024 21h UTC
 function calculateCountdown() {
-    const endDate = new Date("2024-05-25T21:00:00Z").getTime(); // Ngày cụ thể
+    const endDate = new Date("2024-05-22T15:00:00Z").getTime(); // Ngày cụ thể
     const now = new Date().getTime(); // Thời gian hiện tại
     const timeRemaining = endDate - now; // Tính thời gian còn lại
 
