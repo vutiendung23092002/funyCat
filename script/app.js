@@ -12,7 +12,7 @@ function calculateCountdown() {
 
     // Hiển thị kết quả trong phần tử có id là "countdown"
     const countdownElement = document.getElementById("countdown");
-    if(days == 0 && hours == 0 && minutes == 0 && seconds == 0) {
+    if(days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
         countdownElement.innerHTML = `0x.........`;
     } else {
         countdownElement.innerHTML = `${days} Days ${hours} hours ${minutes} minutes ${seconds} seconds`;
